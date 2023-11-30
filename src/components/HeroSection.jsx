@@ -1,4 +1,4 @@
-"use client"
+'use client'
 import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation'
@@ -17,7 +17,7 @@ const HeroSection = () => {
 							sequence={[
 								// Same substring at the start will only be typed out once, initially
 								'Laurent',
-								1000, // wait 1s before replacing "Mice" with "Hamsters"
+								1000, // wait 1s before replacing the words
 								'Web Developer',
 								1000,
 								'Mobile Developer',
