@@ -10,15 +10,15 @@ const HeroSection = () => {
 					<p className='text-[#ADB7BE] text-lg mb-6 lg:text-xl '>
 						I&apos;m a front-end developer Lorem ipsum dolor sit amet
 					</p>
-          <div>
-            <button>Hire Me</button>
-            <button>Download CV</button>
-          </div>
+					<div>
+						<button>Hire Me</button>
+						<button>Download CV</button>
+					</div>
 				</div>
 				<div className='col-span-5 place-self-center mt-4 lg:mt-0'>
 					<div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative'>
 						<Image
-							src='/images/desk-png.png'
+							src='/images/desk-181818.png'
 							alt='hero'
 							className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
 							width={300}
