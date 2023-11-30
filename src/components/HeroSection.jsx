@@ -11,8 +11,8 @@ const HeroSection = () => {
 						I&apos;m a front-end developer Lorem ipsum dolor sit amet
 					</p>
 					<div>
-						<button>Hire Me</button>
-						<button>Download CV</button>
+						<button className='px-6 py-3 rounded-full mr-4 bg-white hover:bg-slate-200 text-black'>Hire Me</button>
+						<button className='px-6 py-3 rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3'>Download CV</button>
 					</div>
 				</div>
 				<div className='col-span-5 place-self-center mt-4 lg:mt-0'>
@@ -20,6 +20,7 @@ const HeroSection = () => {
 						<Image
 							src='/images/desk-181818.png'
 							alt='hero'
+							priority={true}
 							className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
 							width={300}
 							height={300}
