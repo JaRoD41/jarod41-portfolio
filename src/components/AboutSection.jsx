@@ -1,17 +1,18 @@
-"use client"
+'use client'
 
-import React , { useState, useTransition } from 'react'
+import React, { useState, useTransition } from 'react'
 import Image from 'next/image'
+import TabButton from './TabButton'
 
 const AboutSection = () => {
-  const [tab, setTab] = useState("skills")
-  const [isPending, startTransition] = useTransition()
+	const [tab, setTab] = useState('skills')
+	const [isPending, startTransition] = useTransition()
 
-  const handleTabChange = (id) => {
-    startTransition(() => {
-      setTab(id)
-    })
-  }
+	const handleTabChange = (id) => {
+		startTransition(() => {
+			setTab(id)
+		})
+	}
 	return (
 		<section className='text-white'>
 			<div className='md:grid md:grid-cols-2 gap-8 items-center py-8  xl:gap-16 sm:py-16 xl:px-16'>
@@ -28,9 +29,18 @@ const AboutSection = () => {
 						harum et? Quisquam corrupti omnis, quae esse quasi officia a!
 					</p>
 					<div className='flex flex-row mt-8'>
-						<span className='text-[#ADB7BE] mr-3 font-semibold hover:text-white border-b border-purple-500'>Skills</span>
-						<span>Education</span>
-						<span>Experience</span>
+						<TabButton selectTab={() => handleTabChange('skills')} active={tab === 'skills'}>
+							{' '}
+							Skills{' '}
+						</TabButton>
+						<TabButton selectTab={() => handleTabChange('education')} active={tab === 'education'}>
+							{' '}
+							Education{' '}
+						</TabButton>
+						<TabButton selectTab={() => handleTabChange('experience')} active={tab === 'experience'}>
+							{' '}
+							Experience{' '}
+						</TabButton>
 					</div>
 				</div>
 			</div>
