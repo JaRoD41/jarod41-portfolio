@@ -4,6 +4,43 @@ import React, { useState, useTransition } from 'react'
 import Image from 'next/image'
 import TabButton from './TabButton'
 
+const TAB_DATA = [
+	{
+		id: 'skills',
+		title: 'Skills',
+		content: (
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>React</li>
+				<li>Next.js</li>
+				<li>Tailwind</li>
+			</ul>
+		),
+	},
+	{
+		id: 'education',
+		title: 'Education',
+		content: (
+			<ul>
+				<li>Computer Science</li>
+				<li>Information Technology</li>
+			</ul>
+		),
+	},
+	{
+		id: 'experience',
+		title: 'Experience',
+		content: (
+			<ul>
+				<li>Software Engineer</li>
+				<li>Software Developer</li>
+			</ul>
+		),
+	},
+]
+
 const AboutSection = () => {
 	const [tab, setTab] = useState('skills')
 	const [isPending, startTransition] = useTransition()
