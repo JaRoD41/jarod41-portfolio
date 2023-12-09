@@ -60,7 +60,7 @@ const AboutSection = () => {
 						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sit iusto provident iure nisi vitae aperiam
 						est quisquam iste hic. Natus sunt excepturi porro consequuntur maiores possimus vero sed sit ullam qui?
 						Natus fugiat nobis error debitis cumque nulla ducimus laboriosam cupiditate tenetur reiciendis numquam sed
-						amet, in odit perferendis animi optio quisquam aperiam aspernatur. Harum aliquid at, rem, natus perferendis,
+						amet, autem, omnatur. Harum aliquid at, rem, natus perferendis,
 						autem fugiat corporis eligendi quo iure odit ducimus dolorum nostrum consequuntur? Aliquam temporibus ab
 						nostrum dolorum culpa officiis quod sit labore obcaecati, accusantium, quia fuga, beatae sint saepe maiores
 						harum et? Quisquam corrupti omnis, quae esse quasi officia a!
