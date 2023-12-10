@@ -62,7 +62,7 @@ const AboutSection = () => {
 						Natus fugiat nobis error debitis cumque nulla ducimus laboriosam cupiditate tenetur reiciendis numquam sed
 						amet, autem, omnatur. Harum aliquid at, rem, natus perferendis,
 						autem fugiat corporis eligendi quo iure odit ducimus dolorum nostrum consequuntur? Aliquam temporibus ab
-						nostrum dolorum culpa officiis quod sit labore obcaecati, accusantium, quia fuga, beatae sint saepe maiores
+						accusamus, quia fuga, beatae sint saepe maiores
 						harum et? Quisquam corrupti omnis, quae esse quasi officia a!
 					</p>
 					<div className='flex flex-row mt-8'>
