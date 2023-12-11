@@ -9,7 +9,8 @@ const TAB_DATA = [
 		id: 'skills',
 		title: 'Skills',
 		content: (
-			<ul>
+			// <ul className='list-disc pl-2'>
+			<ul className='grid grid-cols-3 gap-4'>
 				<li>HTML</li>
 				<li>CSS</li>
 				<li>JavaScript</li>
@@ -54,7 +55,7 @@ const AboutSection = () => {
 		<section className='text-white'>
 			<div className='md:grid md:grid-cols-2 gap-8 items-center py-8  xl:gap-16 sm:py-16 xl:px-16'>
 				<Image src='/images/desk-181818.png' alt='about' width={500} height={500} />
-				<div>
+				<div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
 					<h2 className='text-4xl font-bold text-white mb-4 mt-4 sm:mt-0'>About Me</h2>
 					<p className='text-base md:text-lg'>
 						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sit iusto provident iure nisi vitae aperiam
