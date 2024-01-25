@@ -21,6 +21,7 @@ const navLinks = [
 	},
 ]
 
+// the different sections
 const Navbar = () => {
 	const [navbarOpen, setNavbarOpen] = useState(false)
 	return (
