@@ -15,3 +15,5 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
+
+// here is the main layout
