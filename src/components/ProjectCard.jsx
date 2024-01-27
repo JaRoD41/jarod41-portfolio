@@ -13,3 +13,5 @@ const ProjectCard = ({ imgUrl, title, description }) => {
 }
 
 export default ProjectCard
+
+// here is the project card section
