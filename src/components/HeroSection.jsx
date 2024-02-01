@@ -58,3 +58,5 @@ const HeroSection = () => {
 }
 
 export default HeroSection
+
+// here is the hero section
