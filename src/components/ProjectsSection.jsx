@@ -46,6 +46,8 @@ const projectsData = [
 		tag: ['All', 'Web'],
 	},
 ]
+
+// here are the projects
 const ProjectsSection = () => {
 	return (
 		<>
