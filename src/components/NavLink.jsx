@@ -8,3 +8,5 @@ const NavLink = ({ href, title }) => {
 }
 
 export default NavLink
+
+// here are the nav links
