@@ -47,7 +47,7 @@ const projectsData = [
 	},
 ]
 
-// here are the projects
+
 const ProjectsSection = () => {
 	return (
 		<>
