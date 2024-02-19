@@ -62,3 +62,5 @@ const ProjectsSection = () => {
 }
 
 export default ProjectsSection
+
+// here is the projects section
