@@ -9,4 +9,4 @@ const NavLink = ({ href, title }) => {
 
 export default NavLink
 
-// here are the nav links
+// here are the nav links for the navbar
