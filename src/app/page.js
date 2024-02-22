@@ -15,4 +15,4 @@ export default function Home() {
 	)
 }
 
-// here is the main layout
+// here is the main layout code
