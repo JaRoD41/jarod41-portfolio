@@ -2,6 +2,8 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 
+// now, I need to add the project cards and I create a projectData array
+
 const projectsData = [
 	{
 		id: 1,
