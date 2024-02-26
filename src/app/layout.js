@@ -16,4 +16,4 @@ export default function RootLayout({ children }) {
   )
 }
 
-// here is the main layout of the app
+// here is the main layout
