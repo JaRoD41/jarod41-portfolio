@@ -63,4 +63,4 @@ const HeroSection = () => {
 
 export default HeroSection
 
-// here is the hero section
+// here is the hero section jsx
