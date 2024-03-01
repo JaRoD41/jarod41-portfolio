@@ -11,4 +11,4 @@ const TabButton = ({ active, selectTab, children }) => {
 
 export default TabButton
 
-// here is the tab button 
+// here is the tab button section
