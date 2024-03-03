@@ -9,6 +9,7 @@ const TAB_DATA = [
 		id: 'skills',
 		title: 'Skills',
 		content: (
+			// test without grid system
 			// <ul className='list-disc pl-2'>
 			<ul className='grid grid-cols-3 gap-4'>
 				<li>HTML</li>
