@@ -21,8 +21,7 @@ const navLinks = [
 	},
 ]
 
-// the different sections of the navbar
-const Navbar = () => {
+// the different sections
 	const [navbarOpen, setNavbarOpen] = useState(false)
 	return (
 		<nav className='fixed top-0 left-0 right-0 z-10 bg-[#181818] bg-opacity-100'>
